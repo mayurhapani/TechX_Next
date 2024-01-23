@@ -1,0 +1,31 @@
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.7rem 0;
+}
+
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.Logo {
+  width: 8.4375rem;
+  height: 3.5rem;
+  flex-shrink: 0;
+}
+.PageLink {
+  color: #7f7f7f;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 1rem;
+  transition: all 0.3s linear;
+}
+.PageLink:hover,
+.isActive {
+  color: #fc0606;
+}

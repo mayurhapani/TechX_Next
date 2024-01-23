@@ -1,0 +1,71 @@
+.Titles {
+  text-align: center;
+  padding: 0 1rem;
+}
+.Title {
+  color: #ff3e3d;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.03rem;
+}
+.SubTitle {
+  color: #162e55;
+  text-align: center;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 1rem 0;
+}
+.Text {
+  color: #7f7f7f;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  opacity: 0.7;
+}
+/* .Cards {
+  display: flex;
+} */
+
+.Btn {
+  color: #fff;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  display: inline-flex;
+  height: 3.125rem;
+  padding: 0.6875rem 1.875rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  flex-shrink: 0;
+
+  border-radius: 0.625rem;
+  border: 1.5px solid #ff3e3d;
+  background: #ff3e3d;
+  margin: 3rem 0;
+}
+
+@media (min-width: 992px) {
+  .Titles {
+    padding: 0 15rem;
+  }
+  .Title {
+    font-size: 1.25rem;
+  }
+  .SubTitle {
+    font-size: 2.75rem;
+  }
+  .Text {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+  }
+}

@@ -1,0 +1,108 @@
+.LeadingWayOuter {
+  margin-top: 2rem;
+  overflow: hidden;
+  background: #f5fbff;
+  padding: 0.2rem 0;
+}
+.LeadingWay {
+  position: relative;
+  /* left: calc(50% - (75.375rem / 2)); */
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.RingOuter {
+  position: absolute;
+}
+.Ring {
+  width: 20rem;
+  aspect-ratio: 1/1;
+  flex-shrink: 0;
+
+  border-radius: 75.375rem;
+  background: linear-gradient(0deg, #e9f7ff 0%, #e9f7ff 100%);
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.Ring::after {
+  content: "";
+  width: 85%;
+  height: 85%;
+  flex-shrink: 0;
+  border-radius: 62.1875rem;
+  background: linear-gradient(0deg, #def3ff 0%, #def3ff 100%);
+  z-index: 3;
+  position: absolute;
+}
+.Ring::before {
+  content: "";
+  width: 70%;
+  height: 70%;
+  flex-shrink: 0;
+  border-radius: 49.625rem;
+  background: linear-gradient(0deg, #d2efff 0%, #d2efff 100%);
+  z-index: 4;
+  position: absolute;
+}
+.LeadingWayInner {
+  text-align: center;
+  position: relative;
+  /* bottom: 0; */
+  z-index: 5;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.Title {
+  color: #1c396a;
+  text-align: center;
+
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.Medical {
+  color: #ff3e3d;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  font-family: (var(--font-inter));
+}
+.SubTitle {
+  color: #7f7f7f;
+  text-align: center;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+
+  line-height: 1.125rem;
+  padding: 0.5rem 0 0.5rem;
+}
+
+@media (min-width: 992px) {
+  .Title,
+  .Medical {
+    font-size: 2.75rem;
+  }
+  .SubTitle {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+  }
+
+  .Ring {
+    width: 75.375rem;
+    height: 71.75rem;
+  }
+  .LeadingWayInner {
+    padding-top: 9rem;
+  }
+  .SubTitle {
+    padding: 2rem 0 4rem;
+  }
+}

@@ -1,0 +1,210 @@
+.MinBenner {
+  background-color: #1c396a;
+  position: relative;
+}
+.MainBennerLeft {
+  align-self: center;
+  padding: 1.5rem 1rem;
+}
+.Title {
+  color: #fff;
+  font-size: 1.5rem;
+  /* font-style: normal; */
+  font-weight: 700;
+  /* line-height: 140%; */
+}
+.SubTitle {
+  color: #fff;
+  font-size: 0.875rem;
+  /* font-style: normal; */
+  /* font-weight: 400; */
+  line-height: normal;
+  margin: 1rem 0 2rem;
+}
+.MeetBtn {
+  padding: 0.6875rem 1.875rem;
+  align-items: center;
+
+  border-radius: 0.625rem;
+  border: none;
+  background: #ff3e3d;
+
+  color: #fafcff;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.MainBennerRight {
+  /* margin-top: 2rem; */
+}
+.DrMinbennerDp {
+  /* width: 12.625rem; */
+  /* height: 14.125rem; */
+  width: 85%;
+  z-index: 5;
+}
+.Ring {
+  width: 15rem;
+  height: 15rem;
+  flex-shrink: 0;
+  border-radius: 49.5rem;
+  background: linear-gradient(179deg, #2a4572 3.65%, rgba(42, 69, 114, 0) 94.57%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  position: relative;
+}
+.Ring::after {
+  content: "";
+  width: 13rem;
+  height: 13rem;
+  flex-shrink: 0;
+  border-radius: 40.26494rem;
+  background: linear-gradient(180deg, #304c78 0.05%, rgba(48, 76, 120, 0) 97.31%);
+  z-index: 3;
+  position: absolute;
+}
+.Ring::before {
+  content: "";
+  width: 11rem;
+  height: 11rem;
+  flex-shrink: 0;
+  border-radius: 31.02988rem;
+  background: linear-gradient(180deg, #405a86 0%, rgba(64, 90, 134, 0) 100%);
+  z-index: 4;
+  position: absolute;
+}
+
+.Rates {
+  width: 120%;
+  /* height: 9rem; */
+  flex-shrink: 0;
+  align-self: flex-end;
+  fill: #fff;
+  filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0));
+  position: absolute;
+  bottom: -1px;
+  right: 0;
+  z-index: 6;
+}
+
+.SubRatesOuter {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 2%;
+}
+.SubRates {
+  /* display: flex; */
+}
+.Counts {
+  color: #1a3a73;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 800;
+  /* line-height: normal; */
+  letter-spacing: 0.04rem;
+}
+.CountsAbout {
+  color: #3d5783;
+  text-align: center;
+  font-size: 0.7rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.025rem;
+  margin: 0;
+}
+.HeartOuter {
+  width: 2rem;
+  height: 2rem;
+
+  display: grid;
+  place-items: center;
+
+  border-radius: 0.3rem;
+  background: #ffb300;
+}
+.Heart {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.SmileyOuter {
+  background: #4cd080 !important;
+}
+
+.RatesTitle {
+  /* padding-left: 1rem; */
+}
+
+@media (min-width: 992px) {
+  .Title {
+    font-size: 4.0625rem;
+  }
+  .MainBennerLeft {
+    padding: 0;
+  }
+  .SubTitle {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    margin: 1rem 0;
+  }
+  .DrMinbennerDp {
+    width: 33.25rem;
+    height: 37.1875rem;
+  }
+  .Ring {
+    width: 49.5rem;
+    height: 49.5rem;
+  }
+  .Ring::after {
+    content: "";
+    width: 40.26494rem;
+    height: 40.26494rem;
+  }
+  .Ring::before {
+    content: "";
+    width: 31.02988rem;
+    height: 31.02988rem;
+  }
+  .MainBennerRight {
+    margin-top: 8rem;
+  }
+
+  .InnerRates svg {
+    width: 100%;
+  }
+  .Rates {
+    width: 60%;
+    height: 9.0625rem;
+    bottom: -1px;
+    right: 0;
+  }
+  .SubRatesOuter {
+    gap: 6rem;
+    justify-content: space-evenly;
+  }
+  .HeartOuter,
+  .SmileyOuter {
+    width: 5.625rem;
+    height: 5.625rem;
+
+    border-radius: 0.625rem;
+  }
+  .Heart {
+    width: 3.625rem;
+    height: 3.625rem;
+  }
+  .Counts {
+    font-size: 2rem;
+  }
+  .CountsAbout {
+    font-size: 1.25rem;
+  }
+}

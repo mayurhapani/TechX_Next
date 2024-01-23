@@ -1,0 +1,65 @@
+.Btn {
+  padding: 0.4375rem 0.9375rem;
+  border-radius: 0.3125rem;
+  background-color: #ff3e3d;
+  border: 1px solid #ff3e3d;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.8rem;
+  margin: 0 0.5rem;
+  transition: all 0.3s linear;
+}
+.BlueBtn {
+  border-radius: 0.3125rem;
+  border: 1.5px solid #1c396a;
+  background: #fff;
+  color: #1c396a;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 0.4375rem 0.9375rem;
+  font-size: 0.75rem;
+  transition: all 0.3s linear;
+}
+.DarkBlueBtn {
+  padding: 0.4375rem 0.9375rem;
+  border-radius: 0.3125rem;
+  background-color: #1c396a;
+  border: 1px solid #1c396a;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.8rem;
+  margin: 0 0.5rem;
+  transition: all 0.3s linear;
+}
+@media (min-width: 992px) {
+  .Btn {
+    font-size: 1rem;
+    padding: 0.6rem 1.5rem;
+    border-radius: 0.875rem;
+  }
+  .DarkBlueBtn {
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 0.875rem;
+  }
+  .BlueBtn {
+    font-size: 1.125rem;
+    height: 3.125rem;
+    padding: 0.8rem;
+    border-radius: 0.625rem;
+  }
+}
+
+.Btn:hover {
+  background-color: #fff;
+  color: #ff3e3d;
+}
+.DarkBlueBtn:hover {
+  background-color: #fff;
+  color: #1c396a;
+}
+.BlueBtn:hover {
+  background-color: #1c396a;
+  color: #fff;
+}

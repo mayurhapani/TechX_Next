@@ -1,0 +1,82 @@
+.ContectUsInner {
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 0.625rem;
+  background: #fff;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+}
+.Titles {
+  text-align: center;
+  padding: 2rem 1rem 0;
+}
+.Title {
+  color: #ff3e3d;
+  text-align: center;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.Text {
+  color: #a4a4a4;
+  text-align: center;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.0225rem;
+}
+.Input {
+  width: 100%;
+  outline: none;
+  flex-shrink: 0;
+  padding: 0.5rem;
+
+  border-radius: 0.3125rem;
+  border: 1px solid #e0e0e0;
+  background: #fff;
+}
+
+.SubTitle {
+  color: #1c396a;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.AddressDiv {
+  padding-left: 1rem;
+}
+.Address {
+  padding-bottom: 2rem;
+}
+.Form {
+  margin: 1rem 0;
+}
+
+@media (min-width: 992px) {
+  .ContectUsInner {
+    padding: 6rem;
+    margin: 6rem 0;
+  }
+  .Titles {
+    padding: 0 13rem 2rem;
+  }
+  .Title {
+    font-size: 1.25rem;
+    padding: 1rem 0;
+  }
+  .SubTitle {
+    font-size: 2.75rem;
+  }
+  .Text {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+  }
+  .Input {
+    padding: 1rem;
+  }
+  .AddressDiv {
+    padding-left: 5rem;
+  }
+}

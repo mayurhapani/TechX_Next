@@ -1,0 +1,70 @@
+.Gallery {
+  text-align: center;
+  padding: 2rem 0;
+}
+.Title {
+  color: var(--Dark-blue, #021c56);
+
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 1rem 0;
+}
+.SubTitle {
+  color: #7f7f7f;
+  text-align: center;
+
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  padding: 0 1rem;
+  line-height: 1.125rem;
+}
+.ImagePadding {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.Photos {
+  display: grid;
+  gap: 10px;
+  padding: 3rem 1rem;
+}
+.Photo1 {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+  /* padding-bottom: 1rem; */
+}
+.btn {
+  display: inline-flex;
+  padding: 0.875rem 1.5rem;
+  align-items: center;
+  gap: 0.625rem;
+
+  border-radius: 0.625rem;
+
+  color: #fff;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0 0.5rem;
+  background: #ff3e3d;
+}
+@media (min-width: 992px) {
+  .Gallery {
+    padding: 6rem 0;
+  }
+  .Title {
+    font-size: 2.75rem;
+  }
+  .SubTitle {
+    font-size: 1.25rem;
+    padding: 0 13.7rem;
+    line-height: 1.875rem;
+  }
+  .Photo1 {
+    padding-bottom: 1rem;
+  }
+}

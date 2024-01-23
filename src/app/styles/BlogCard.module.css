@@ -1,0 +1,51 @@
+.ByAdmin {
+  color: #1c396a;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.DateText {
+  font-size: 0.75rem;
+}
+.Title {
+  color: #1c396a;
+  font-style: normal;
+  line-height: normal;
+  text-align: left;
+
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: 0.0225rem;
+}
+.SubTitle {
+  color: #7f7f7f;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+
+  padding: 0.8rem 0;
+  font-size: 0.75rem;
+}
+.Btn {
+  color: #fc0606;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+@media (min-width: 992px) {
+  .Title {
+    font-size: 1.625rem;
+    font-weight: 600;
+    letter-spacing: 0.0325rem;
+    text-align: center;
+  }
+  .SubTitle,
+  .DateText {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+}

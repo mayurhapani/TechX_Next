@@ -1,0 +1,90 @@
+.TeamInner {
+  padding: 2rem 1rem;
+}
+
+.Titles {
+  text-align: center;
+  padding: 0 1rem;
+  padding-bottom: 2rem;
+}
+.Title {
+  color: #ff3e3d;
+
+  font-size: 0.875rem;
+  /* font-size: 1.5rem; */
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.03rem;
+  text-align: center;
+}
+.SubTitle {
+  color: #162e55;
+  font-size: 1.25rem;
+  /* font-size: 2.75rem; */
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+.Text {
+  color: #7f7f7f;
+  text-align: left;
+  font-size: 0.875rem;
+  /* font-size: 1.25rem; */
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.TextTitle {
+  color: #1c396a;
+}
+
+.TextDiv {
+  padding: 2rem 1rem;
+  margin-bottom: 3rem;
+}
+.cards {
+  padding: 4rem 0;
+}
+.ImageContainer {
+  display: flex;
+  gap: 2rem;
+  padding-bottom: 0.5rem;
+}
+.Img {
+  height: 100%;
+}
+
+.DrDetailes {
+  padding: 2rem 0;
+}
+.DrSubTitle {
+  color: #5d95e8;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media (min-width: 992px) {
+  .Titles {
+    padding: 0 15rem;
+  }
+  .Title {
+    font-size: 1.5rem;
+  }
+  .SubTitle {
+    font-size: 2.75rem;
+  }
+  .Text {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+  }
+  .CardDiv {
+    margin: 3rem;
+  }
+  .TeamInner {
+    padding: 6rem 0;
+  }
+}

@@ -1,0 +1,28 @@
+.SubTitle {
+  color: #162e55;
+  text-align: center;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 1rem 0;
+}
+.Text {
+  color: #7f7f7f;
+  text-align: center;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+
+  line-height: 1.25rem;
+  opacity: 0.7;
+}
+@media (min-width: 992px) {
+  .SubTitle {
+    font-size: 2.75rem;
+  }
+  .Text {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+  }
+}

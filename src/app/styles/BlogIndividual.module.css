@@ -1,0 +1,127 @@
+.Blog {
+  padding-top: 1rem;
+  padding-bottom: 6rem;
+}
+
+.Titles {
+  text-align: center;
+  padding: 0 1rem;
+}
+.Title {
+  color: #ff3e3d;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.03rem;
+  text-align: center;
+}
+.SubTitle {
+  color: #162e55;
+
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+.Text {
+  color: #7f7f7f;
+  text-align: left;
+
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  /* opacity: 0.7; */
+}
+.TextTitle {
+  color: #1c396a;
+  font-weight: 600;
+  opacity: 1 !important;
+}
+
+.TextDiv {
+  padding: 2rem 1rem;
+  margin-bottom: 3rem;
+}
+.cards {
+  padding: 4rem 0;
+}
+.ImageContainer {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+  margin: 4rem 0 0;
+}
+.Img {
+  height: 100%;
+}
+
+.DateDiv {
+  width: 100%;
+}
+.Input {
+  width: 100%;
+  outline: none;
+  border-radius: 0.3125rem;
+  border: 0.5px solid #e0e0e0;
+
+  height: 2.8125rem;
+  flex-shrink: 0;
+  padding: 0.6rem;
+}
+.TitleSearch {
+  border-radius: 0.3125rem;
+  background: #1c396a;
+  flex-shrink: 0;
+
+  color: #fff;
+
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  padding: 0.6rem;
+  margin-top: 1rem;
+}
+.SearchUl {
+  padding-left: 1rem;
+  margin: 0;
+}
+.SearchLi {
+  color: #7f7f7f;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 0.4rem 0;
+}
+
+@media (min-width: 992px) {
+  .TitleSearch {
+    font-size: 1.625rem;
+  }
+  .SearchLi {
+    font-size: 1.2rem;
+  }
+  .SubTitle {
+    font-size: 2.75rem;
+  }
+  .Text {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+  }
+  .Titles {
+    text-align: center;
+    /* padding: 0 15rem; */
+  }
+  .DateDiv {
+    width: 25rem;
+  }
+  .ImageContainer {
+    padding: 2rem;
+  }
+}

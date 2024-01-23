@@ -1,0 +1,172 @@
+.AboutUsOuter {
+  padding: 2rem 0;
+
+  /* display: flex; */
+}
+.AboutUsImage {
+  max-width: max-content !important;
+  /* width: 38.125rem;
+  height: 38.125rem; */
+
+  border-radius: 50%;
+}
+.AboutUsImageDiv {
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+.Years {
+  width: 4rem;
+  height: 4rem;
+
+  background-color: #fffbfb;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+
+  position: absolute;
+  top: 10%;
+  right: 15%;
+}
+
+.YearCount {
+  color: #ff3e3d;
+  font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: 0.0675rem;
+  line-height: 1.2rem;
+  margin: 0;
+}
+.YearName {
+  color: #ff3e3d;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.0325rem;
+  line-height: 1.2rem;
+  margin: 0;
+}
+
+.AboutUsInfoDiv {
+  padding: 2rem 0;
+  text-align: center;
+}
+.AboutInfoTitle {
+  color: #ff3e3d;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+.AboutInfoSubtitle {
+  color: #162e55;
+  font-size: 1.25rem;
+  margin: 1rem 0;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.AboutInfoText {
+  color: #7f7f7f;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+  padding: 1rem;
+  text-align: center;
+}
+.AboutInfoBlog {
+  display: flex;
+  padding: 2rem 1rem;
+}
+.SmImg {
+  width: 4.5rem;
+  height: 4.5rem;
+
+  border-radius: 50%;
+}
+.AboutInfoBlogText {
+  color: rgba(127, 127, 127, 0.58);
+  font-size: 1rem;
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 1rem;
+}
+.AboutInfoBlogBoldtext {
+  color: #1c396a;
+  font-size: 1rem;
+  /* font-size: 1.125rem; */
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.AboutUsBtn {
+  display: inline-flex;
+  height: 3.125rem;
+  padding: 0.6875rem 1.875rem;
+  align-items: center;
+  gap: 0.625rem;
+  flex-shrink: 0;
+
+  border-radius: 0.625rem;
+  border: none;
+  background: #ff3e3d;
+
+  color: #fafcff;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+@media (min-width: 992px) {
+  .AboutUsOuter {
+    padding: 10rem 0;
+  }
+  .AboutUsInfoDiv {
+    padding: 2rem 1rem;
+    text-align: left;
+    padding-left: 6rem;
+    padding-top: 6rem;
+  }
+  .AboutInfoTitle {
+    font-size: 1.5rem;
+  }
+  .AboutInfoSubtitle {
+    font-size: 2.75rem;
+    margin: 0;
+  }
+  .AboutUsImage {
+    width: 38.125rem;
+    height: 38.125rem;
+  }
+  .Years {
+    width: 10.8125rem;
+    height: 10.8125rem;
+
+    top: 0;
+    right: 0;
+  }
+  .YearCount {
+    font-size: 3.375rem;
+    line-height: normal;
+  }
+  .YearName {
+    font-size: 1.625rem;
+    line-height: normal;
+  }
+  .AboutInfoText {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    text-align: left;
+  }
+  .SmImg {
+    width: 5.4375rem;
+    height: 5.4375rem;
+  }
+  .AboutInfoBlogText {
+    font-size: 1.125rem;
+  }
+  .AboutInfoBlogBoldtext {
+    font-size: 1.125rem;
+  }
+}

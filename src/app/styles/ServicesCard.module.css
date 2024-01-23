@@ -1,0 +1,77 @@
+.SCard {
+  /* width: 13.8125rem; */
+
+  margin: 0 0.5rem;
+  padding: 2rem;
+  border-radius: 0.625rem;
+  background: #fff;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
+}
+.SCardTop {
+  display: flex;
+  align-items: center;
+}
+.SCardSymbDiv {
+  width: 2.5rem;
+  height: 2.5rem;
+  flex-shrink: 0;
+
+  border-radius: 0.625rem;
+  border: 1px solid #545f71;
+  display: grid;
+  place-items: center;
+}
+.SCardTitle {
+  color: #1c396a;
+  text-align: center;
+  font-style: normal;
+  line-height: normal;
+
+  padding: 1rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.SCardText {
+  color: #7f7f7f;
+  font-size: 0.875rem;
+
+  line-height: 1.25rem;
+  font-weight: 400;
+  text-align: center;
+  padding: 0.5rem 0 1rem;
+}
+
+.SCardSymbDiv svg {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+@media (min-width: 992px) {
+  .SCard {
+    /* width: 13.8125rem; */
+
+    margin: 0 0;
+    width: auto;
+  }
+  .SCardText {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+
+    padding: 2rem 0;
+    text-align: left;
+  }
+  .SCardSymbDiv {
+    width: 5rem;
+    height: 5rem;
+  }
+  .SCardSymbDiv svg {
+    width: 3.75rem;
+    height: 3.75rem;
+  }
+  .SCardTitle {
+    font-size: 1.625rem;
+    font-weight: 600;
+    padding: 1.5rem;
+  }
+}

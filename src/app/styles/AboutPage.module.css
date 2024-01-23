@@ -1,0 +1,60 @@
+.AboutVision {
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+}
+
+.SubTitle {
+  color: #162e55;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+.Card {
+  margin-top: 2rem;
+  display: flex;
+  padding: 0 1rem;
+}
+
+.TitleSpan1 {
+  color: #162e55;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.TitleSpan2 {
+  color: #ff3e3d;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.Text {
+  color: #7f7f7f;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.875rem; /* 150% */
+}
+.TextDiv {
+  /* width: 48.625rem; */
+  padding: 2rem 0;
+  padding-left: 2rem;
+}
+
+@media (min-width: 992px) {
+  .SubTitle {
+    font-size: 1.25rem;
+  }
+  .TitleSpan1 {
+    font-size: 2.75rem;
+  }
+  .TitleSpan2 {
+    font-size: 2.75rem;
+  }
+  .Text {
+    font-size: 1.25rem;
+  }
+}

@@ -1,0 +1,65 @@
+.MinBenner {
+  background-color: #1c396a;
+}
+.MinBennerInner {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.MinBennerTitle {
+  color: #fff;
+  text-align: center;
+
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+  z-index: 5;
+  text-underline-offset: 1rem;
+}
+.Ring {
+  max-width: 49.5rem;
+  aspect-ratio: 1/1;
+  flex-shrink: 1;
+  border-radius: 49.5rem;
+  background: linear-gradient(179deg, #2a4572 3.65%, rgba(42, 69, 114, 0) 94.57%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  position: relative;
+  margin: 2rem 0;
+}
+.Ring::after {
+  content: "";
+  width: 85%;
+  height: 85%;
+  flex-shrink: 1;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #304c78 0.05%, rgba(48, 76, 120, 0) 97.31%);
+  z-index: 3;
+  position: absolute;
+}
+.Ring::before {
+  content: "";
+  width: 70%;
+  height: 70%;
+  flex-shrink: 1;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #405a86 0%, rgba(64, 90, 134, 0) 100%);
+  z-index: 4;
+  position: absolute;
+}
+
+@media (min-width: 992px) {
+  .Ring {
+    width: 49.5rem;
+    height: 49.5rem;
+  }
+  .MinBennerTitle {
+    font-size: 3.875rem;
+  }
+}

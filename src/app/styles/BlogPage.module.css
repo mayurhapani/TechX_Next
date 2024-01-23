@@ -1,0 +1,62 @@
+.Blog {
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+}
+
+.Titles {
+  text-align: center;
+  padding: 0 1rem;
+}
+.Title {
+  color: #ff3e3d;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.03rem;
+  text-align: center;
+}
+.SubTitle {
+  color: #162e55;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  margin: 1rem 0;
+}
+.Text {
+  color: #7f7f7f;
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+
+  opacity: 0.7;
+}
+
+.TextDiv {
+  padding: 2rem 1rem;
+  margin-bottom: 3rem;
+}
+.cards {
+  padding: 4rem 0;
+}
+
+@media (min-width: 992px) {
+  .Titles {
+    padding: 0 15rem;
+  }
+  .Title {
+    font-size: 1.5rem;
+  }
+  .SubTitle {
+    font-size: 2.75rem;
+  }
+  .Text {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+  }
+}

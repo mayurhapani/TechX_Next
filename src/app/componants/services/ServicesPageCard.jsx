@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Img1 from "../../../../public/Services1.png";
-import ServicesSvg from "./ServicesSvg";
+import ServicesSvg from "./ServicesSvg.jsx";
 import Styles from "../../styles/ServicesPage.module.css";
 
 const ServicesPageCard = () => {
